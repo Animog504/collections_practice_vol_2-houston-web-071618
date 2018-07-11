@@ -29,10 +29,10 @@ end
 def first_wa(array)
   found = false
   counter = 0 
-  while !found do x
+  while !found 
+   array.each do |x|
    if x.include?("wa")
      found = true
-     
    else
      counter+=1 
    end
