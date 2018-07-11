@@ -36,7 +36,8 @@ def first_wa(array)
    else
      counter+=1 
    end
- end
+  end
+end
  array[counter]
 end
 
